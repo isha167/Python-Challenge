@@ -27,7 +27,7 @@ counts=Counter(candidate_list)
 for i in counts:
  print(i,":",'%.3f' % int(int(counts[i])*100/total_vote),"%",'(%s)' % counts[i])
 
- #find and print the winner name 
+#find and print the winner name 
  winner_key = max(counts.items(), key=operator.itemgetter(1))[0]
 print("-----------------------------") 
 print(" Winner:" + str(winner_key))
@@ -47,4 +47,6 @@ with open (textfile,"w") as outfile:
   outfile.write('%.3f' % int(int(counts[i])*100/total_vote) )
   outfile.write("%" )
   outfile.write( '(%s)' % counts[i]+"\n")
-
+ outfile.write("-----------------------------"+"\n") 
+ outfile.write(" Winner:" + str(winner_key)+"\n")
+ outfile.write("-----------------------------"+"\n") 
