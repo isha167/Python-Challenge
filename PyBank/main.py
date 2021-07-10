@@ -36,8 +36,7 @@ with open (csvpath) as csvfile:
 for i in change_list:
     max_change =max(change_list)
     min_change =min(change_list)
-print(min_change)
-print(max_change)
+
 #find the index  with greatest change in profit/loss
 for i in change_list:
     max_change_index =change_list.index(max_change)
