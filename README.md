@@ -1,4 +1,8 @@
 # Python-Challenge
+## PyBank
+![revenue-per-lead](https://user-images.githubusercontent.com/85182090/125172812-99c2ad00-e1b3-11eb-97bb-16e8b8c98da5.png)
+
+
 * In this challenge, We are tasked with creating a Python script for analyzing the financial records of a company. I had  a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset was composed of two columns: `Date` and `Profit/Losses`.
 
 *The task was to create a Python script that analyzes the records to calculate each of the following:
@@ -28,6 +32,7 @@
 * In addition, to the final script it should both print the analysis to the terminal and export a text file with the results.
 
 ## PyPoll
+![Vote_counting](https://user-images.githubusercontent.com/85182090/125172780-6e3fc280-e1b3-11eb-8547-4ddab2094340.png)
 
 
 
